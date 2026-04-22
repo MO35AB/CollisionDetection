@@ -14,7 +14,7 @@ else {
 }
 </pre>
 
-<p>We can then wrap this code up in a function to make the it more usable. As arguments, we pass the X/Y coordinates for both points. The function returns a boolean value of <code>true</code> or <code>false</code>, depending on whether there is a collision or not.</p>
+<p>We can then wrap this code up in a function to make it more usable. As arguments, we pass the X/Y coordinates for both points. The function returns a boolean value of <code>true</code> or <code>false</code>, depending on whether there is a collision or not.</p>
 
 <pre>boolean pointPoint(float x1, float y1, float x2, float y2) {
     if (x1 == x2 &amp;&amp; y1 == y2) {
